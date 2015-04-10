@@ -1,0 +1,14 @@
+name: A-Plugin
+version: ${pluginversion}
+description: 'A Plugin is a Plugin which plugs in'
+website: 'http://wma.im'
+main: im.wma.dev.a-plugin
+softdepend:
+  - dynmap
+authors:
+  - WMA
+commands:
+  a-plugin:
+    aliases:
+      - plugin
+    description: 'Plugs in'
